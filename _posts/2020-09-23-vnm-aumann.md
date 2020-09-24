@@ -92,6 +92,13 @@ $$
 \end{gather}
 $$
 
+An n-person "game" is an n-person characteristic function (N, v)
+together with a convex compact polyhedral subset H of v(N).
+
+This is an axiomatic way of defining games in terms of the effective payoffs of various possible coalitions. 
+
+Hello mr inline $x^2$
+
 
 
 
