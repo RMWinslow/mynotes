@@ -81,9 +81,15 @@ member i of B receives at least X_i.
 
 
 ## axiomatic treatment
-
+An n-person "characteristic function is a set N with n members together with a function v that carreis each subset B of N insto a subset v(B) of E^N so that 
 $$
-x^2
+\begin{gather}
+    v(B) \text{ is convex} \\
+    v(B) \text{ is closed} \\
+    v(\varnothing) = E^N \\
+    x \in v(B), y \in E^N, y_i \leq x_i \forall i \in B \implies y\in v(B) \\
+    B_1, B_2 disjoint \implies v( B_1 \cup B_2 ) \supset v(B_1) \cap v(B_2) \\
+\end{gather}
 $$
 
 
