@@ -95,9 +95,13 @@ The distribution $Z$ of number of secondary infections is called the *offspring 
 * In diff eq version with $v$ [exponentially distributed](https://mathworld.wolfram.com/ExponentialDistribution.html), $Z \sim geometric(R_0)$ [...](https://mathworld.wolfram.com/GeometricDistribution.html)
 * Generally, if $v$ is [gamma distributed](https://en.wikipedia.org/wiki/Gamma_distribution) with dispersion $k$ then $Z$ is has a negative [binomial distribution](https://en.wikipedia.org/wiki/Negative_binomial_distribution)
 
+> In all three candidate models, the population mean of the offspring distribution is $R_0$. The
+variance-to-mean ratio differs significantly, however, equalling 1 for the Poisson distribution,
+$1+R_0$ for the geometric distribution, and $1+\frac{R_0}{k}$ for the negative binomial distribution. 
+
 Negative binomial includes Poisson and geometric as special cases. Poisson when $k\to\infty$  and geometric when $k=1$. Variance is $R_0 \frac{1+R_0}{k} $, so smaller $k$ indicates greater heterogeneity in spread.
 
-The negative binimoial is a much better fit for empirically observed distribution of disease spread of SARS in singapore and China
+The negative binimoial is a much better fit for empirically observed distribution of disease spread of SARS in singapore and China (PotthoffWhittinghill ‘index of dispersion’ test)
 
 ### Superspreading and epidemic outbreaks
 
@@ -135,11 +139,30 @@ Branching process theory: $q^{ind} > q^{pop}$ whenever $0 < c < 1 - {1 \over R_0
 
 > If highly infectious individuals can be identified predictively then the efficiency of control could be greatly increased. Focusing half of all control effort on the most infectious 20% of cases is up to threefold more effective than random control... Gains in efficiency increase with more intense targeting of high-ν cases, but saturate as overall coverage c increases. Again, branching process theory generalizes these findings: for a given proportion c of individuals controlled, greater targeting of higher-ν individuals leads to lower effective reproductive number R and higher extinction probability q
 
+Also, hey, nicely organized 31 page appendix.
 
 
+# Supplementary Snippets
+
+##### Want to come back and dig through some of these citations (7,9-14):
+
+> At the host level, distributions of contact rates are often skewed9-13
+and index cases in SSEs are often noted to have high numbers of occupational or social
+contacts7,10,14. Increased transmission is correlated with host activities that facilitate pathogen
+dispersion, such as food handling15 and singing16,17. Transmission rates can exhibit strong agedependence10,18, and previously vaccinated hosts often are less infectious19,20. 
+
+##### EEeeeewwww:
+
+>A series of
+observational and experimental studies has documented the potential for upper respiratory tract
+infections (with a respiratory virus, e.g. rhinovirus or adenovirus) to convert nasal carriers of
+Staphylococcus aureus into highly infectious ‘cloud’ patients, so-called because they are
+surrounded by clouds of aerosolized bacteria25-28. 
 
 
-
+> Imperfect disease control measures can
+increase variation in ν, if transmission is concentrated in a few missed cases or pockets of
+unvaccinated individuals10,20,34,37,42. 
 
 
 
