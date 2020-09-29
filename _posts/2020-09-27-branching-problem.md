@@ -1,5 +1,5 @@
 ---
-title: "Superspreading and the effect of individual variation on disease emergence"
+title: "Branching problems"
 excerpt_separator: "<!--more-->"
 categories:
   - online reference
