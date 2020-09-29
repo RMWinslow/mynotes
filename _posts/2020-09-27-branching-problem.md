@@ -26,6 +26,7 @@ TODO to do
 ## From the linked paper, in the context of outbreak spread
 
 We have a probability generating function $g$ of  the offspring distribution $Z$
+
 $$g(s)=\sum_{j=0}^\infty Pr(Z=j) s^j$$
 
 Important properties: $R_0$ is $g^\prime (1)$. And chance that a person doesn't spread is $Pr(Z=0)=g(0)$.
@@ -37,6 +38,7 @@ When $R_0 > 1$, prob of disease extinction as $n\to\infty$ after we introduce on
 pgf for total number of infected individuals of a minor outbreak is defined implicitly: $G(s)=sg(G(s))$. Expectation is $G^\prime (1)$.
 
 * If $v$  drawn from pdf $f_v (u)$, then Poisson tranmission with mean $v$ distributed as $f_v (u)$ has pgf 
+
 $$g(s)=\int_0^\infty e^{-u(1-s)}f_v(u)\ du$$
 
 * If $v$ constant at $R_0$ then pgf is $g(s)=e^{-R_0 (1-s)}$
@@ -48,9 +50,11 @@ $$g(s)=\int_0^\infty e^{-u(1-s)}f_v(u)\ du$$
 
 
 If $Z$ is a negative binomial distribution $Z \sim NegB(R_0, k)$, then the pgf is 
+
 $$g(s) = \left(1 + \frac{R_0}{k}(1-s)\right)^{-k} $$
 
 Apply population wide control and 
+
 $$g_{pop}(s) = \left(1 + (1-c)\frac{R_0}{k}(1-s)\right)^{-k} $$
 
 
