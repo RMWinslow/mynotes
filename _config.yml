@@ -24,6 +24,9 @@ github_username: username
 minimal_mistakes_skin: dirt
 search: true
 
+url: https://www.robertmwinslow.com
+baseurl: "/papersread"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
