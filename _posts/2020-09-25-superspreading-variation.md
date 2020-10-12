@@ -2,7 +2,7 @@
 title: "Superspreading and the effect of individual variation on disease emergence"
 excerpt_separator: "<!--more-->"
 categories:
-  - journal articles
+  - journal article
 tags:
   - disease 
   - risk
