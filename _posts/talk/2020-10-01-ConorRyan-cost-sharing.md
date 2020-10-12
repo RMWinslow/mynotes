@@ -1,9 +1,9 @@
 ---
-title: "Conor Ryan Insurance Cmpetition and Health Consumption"
+title: "Conor Ryan Insurance Competition and Health Consumption"
 excerpt_separator: "<!--more-->"
 toc: false
 categories:
-  - job market talk
+  - talk
 tags:
   - medicare
   - insurance
