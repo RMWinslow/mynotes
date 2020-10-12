@@ -63,7 +63,7 @@ plugins:
 author:
   name   : "Robert Winslow"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Keep forgetting the stuff I read. Hopefully this will help with that."
+  bio    : "Very sloppy notes on things I've read or watched. This isn't in blog format because I want other people to read these notes, but simply because I want the search and tagging functionality."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
