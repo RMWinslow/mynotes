@@ -2,7 +2,7 @@
 title: "VON NEUMANN-MORGENSTERN SOLUTIONS TO COOPERATIVE GAMES WITHOUT SIDE PAYMENTS"
 excerpt_separator: "<!--more-->"
 categories:
-  - journal article
+  - journal
 tags:
   - Aumann
   - Peleg

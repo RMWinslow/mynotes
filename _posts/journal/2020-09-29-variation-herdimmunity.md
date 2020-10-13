@@ -2,7 +2,7 @@
 title: "Individual variation in susceptibility or exposure to SARS-CoV-2 lowers the herd immunity threshold"
 excerpt_separator: "<!--more-->"
 categories:
-  - journal article
+  - journal
 tags:
   - disease 
   - risk

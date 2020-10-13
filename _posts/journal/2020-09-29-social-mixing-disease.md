@@ -2,7 +2,7 @@
 title: "Social Contacts and Mixing Patterns Relevant to the Spread of Infectious Diseases  "
 excerpt_separator: "<!--more-->"
 categories:
-  - journal article
+  - journal
 tags:
   - disease 
   - risk

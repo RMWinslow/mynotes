@@ -2,7 +2,7 @@
 title: "Branching problems"
 excerpt_separator: "<!--more-->"
 categories:
-  - online reference
+  - online
 tags:
   - disease 
   - risk

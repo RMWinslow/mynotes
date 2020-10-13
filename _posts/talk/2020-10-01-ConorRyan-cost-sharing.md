@@ -1,5 +1,5 @@
 ---
-title: "Conor Ryan Insurance Competition and Health Consumption"
+title: "Conor Ryan Insurance Cmpetition and Health Consumption"
 excerpt_separator: "<!--more-->"
 toc: false
 categories:
@@ -21,7 +21,7 @@ Markets are delineated by county. Gov requires insurance same for eveyone in tha
 
 Coinsurance rates don't decline aas drastically for other things like specialist services and the like 
 
-![](ryan-specialistCopays.png)
+![](../../img/ryan-specialistCopays.png)
 
 Most of the country is in the 10-or-less category. The ones with more are weird places like new york.
 
@@ -29,7 +29,7 @@ Despite low average payment, a fourth of out of pocket spending is on primary ca
 
 log linear healthcare consumption
 
-![](ryan-insuranceModel.png)
+![](/img/ryan-insuranceModel.png)
 
 Standard demand estimation, but Ryan can observe heterogeneity in terms of specific medical treatments.
 

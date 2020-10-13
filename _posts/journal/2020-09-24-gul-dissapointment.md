@@ -2,7 +2,7 @@
 title: "A Theory of Disappointment Aversion"
 excerpt_separator: "<!--more-->"
 categories:
-  - journal article
+  - journal
 tags:
   - Gul
   - preferences

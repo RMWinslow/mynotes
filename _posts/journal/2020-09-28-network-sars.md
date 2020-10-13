@@ -2,7 +2,7 @@
 title: "Network theory and SARS: predicting outbreak diversity"
 excerpt_separator: "<!--more-->"
 categories:
-  - journal article
+  - journal
 tags:
   - disease 
   - risk
