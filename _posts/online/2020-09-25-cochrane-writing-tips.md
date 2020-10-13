@@ -1,7 +1,6 @@
 ---
 title: "Writing Tips for Ph. D. Students"
 excerpt_separator: "<!--more-->"
-toc: false
 categories:
   - online
 tags:

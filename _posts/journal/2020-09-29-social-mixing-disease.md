@@ -41,7 +41,7 @@ seroepidemiological data
 
 Uses negative binomial model
 
-##### Simulation:
+### Simulation:
 
 Divide population in 15 age bands. Denote the number of at-risk
 contacts of an individual in age class j with individuals in age
@@ -57,7 +57,7 @@ patterns reveal that schoolchildren drive the epidemic in all
 age groups during the initial phase of spread for infections
 transmitted by droplets and through close contacts.
 
-#### contact data
+### contact data
 
 Contains table of contacts based on age, sex, household size, day of week, and country.
 

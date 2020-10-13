@@ -1,6 +1,5 @@
 ---
 title: "Unconventional Use Cases For Jekyll"
-excerpt_separator: "<!--more-->"
 toc: false
 categories:
   - youtube

@@ -1,7 +1,6 @@
 ---
 title: "Conor Ryan Insurance Cmpetition and Health Consumption"
 excerpt_separator: "<!--more-->"
-toc: false
 categories:
   - talk
 tags:

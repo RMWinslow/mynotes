@@ -1,7 +1,5 @@
 ---
 title: "How to Write a Great Research Paper"
-excerpt_separator: "<!--more-->"
-toc: false
 categories:
   - youtube
 tags:

@@ -13,9 +13,9 @@ If you've found yourself here that way, please don't judge me too harshly for th
 The advantages of using a blog template are that I can search through posts, and organize things by tag.
 Also, because it's hosted on github pages, I can very easily access and even edit these notes from any platform or device. 
 
-I was inspired to set things up this way after reading about the initial impetus behind the internet is to make hardware irrelevant when it came to sharing data among CERN researchers. 
+<!--I was inspired to set things up this way after reading about the initial impetus behind html is to make hardware irrelevant when it came to sharing data among CERN researchers. 
 Well, I'm trying to make hardware relevant for my own notes as well. 
-(And file hosting is too bulky and won't render markdown with latex, of course.)
+(And file hosting is too bulky and won't render markdown with latex, of course.)-->
 
 ### Category Meanings
 

@@ -1,7 +1,6 @@
 ---
 title: "How to remember what you learn"
 excerpt_separator: "<!--more-->"
-toc: false
 categories:
   - online
 tags:
