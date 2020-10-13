@@ -17,6 +17,8 @@ I was inspired to set things up this way after reading about the initial impetus
 Well, I'm trying to make hardware relevant for my own notes as well. 
 (And file hosting is too bulky and won't render markdown with latex, of course.)
 
+### Category Meanings
+
 This repo is for absolutely any informative media I consume.
 The Category label is used to split things up by the medium:
 
@@ -26,3 +28,13 @@ The Category label is used to split things up by the medium:
 - **journal** for working papers and published research articles
 - **textbook** for longform published reference material
 - **online** for things like blogposts, wiki articles, and news stories
+
+### Linking images.
+
+To link images, I put images in the /img/ folder and link them in markdown use the format:
+
+```
+![DESCRIPTION](../../img/FILENAME)
+```
+
+This is the most concise format I've found which both works in Github's markdown preview and also compiles correctly using the site's theme. I thought the baseurl config would like me drop the "../..", but alas.

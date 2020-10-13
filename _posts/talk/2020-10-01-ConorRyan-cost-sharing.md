@@ -15,7 +15,7 @@ Looks at medicare advantage patients. Sees prices billed to insurance and what t
 
 Price (monthly insurance premium)  and primary care copay are both lower in counties with more firms.
 
-![](ryan-primaryCopays.png)
+![](../../img/ryan-primaryCopays.png)
 
 Markets are delineated by county. Gov requires insurance same for eveyone in thar county.
 
@@ -29,7 +29,7 @@ Despite low average payment, a fourth of out of pocket spending is on primary ca
 
 log linear healthcare consumption
 
-![](/img/ryan-insuranceModel.png)
+![](../../img/ryan-insuranceModel.png)
 
 Standard demand estimation, but Ryan can observe heterogeneity in terms of specific medical treatments.
 
