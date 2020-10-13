@@ -102,6 +102,8 @@ defaults:
       related: false
       show_date: true
       toc: true
+      excerpt_separator: "<!--more-->"
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
