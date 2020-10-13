@@ -102,3 +102,7 @@ First year and half of second year were disrupted by illness. Third year was lar
 
 
 
+# Old advice from Tim
+
+there are people at harvard who are imaginitive but don't know any economics
+take a model you know well and apply it for the people who cant get into the nitty gritty
