@@ -7,6 +7,7 @@ tags:
   - disease 
   - risk
   - contagion
+  - superspreading
 ---
 
 Superspreading and the effect of individual variation on disease emergence
