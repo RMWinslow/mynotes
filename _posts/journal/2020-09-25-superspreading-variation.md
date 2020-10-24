@@ -14,6 +14,8 @@ Superspreading and the effect of individual variation on disease emergence
 By J. O. Lloyd-Smith, S. J. Schreiber, P. E. Kopp & W. M. Getz 
 Nature Published: 17 November 2005
 
+[link](https://www.nature.com/articles/nature04153)
+
 # Summary
 
 the basic reproductive number $R_0$  is the mean number of infections caused by an infected individual in a susceptible population. But this is a population average. 
@@ -100,7 +102,7 @@ The distribution $Z$ of number of secondary infections is called the *offspring 
 variance-to-mean ratio differs significantly, however, equalling 1 for the Poisson distribution,
 $1+R_0$ for the geometric distribution, and $1+\frac{R_0}{k}$ for the negative binomial distribution. 
 
-Negative binomial includes Poisson and geometric as special cases. Poisson when $k\to\infty$  and geometric when $k=1$. Variance is $R_0 \frac{1+R_0}{k} $, so smaller $k$ indicates greater heterogeneity in spread.
+Negative binomial includes Poisson and geometric as special cases. Poisson when $k\to\infty$  and geometric when $k=1$. Variance is $R_0 (1+\frac{R_0}{k})$, so smaller $k$ indicates greater heterogeneity in spread.
 
 The negative binimoial is a much better fit for empirically observed distribution of disease spread of SARS in singapore and China (PotthoffWhittinghill ‘index of dispersion’ test)
 
