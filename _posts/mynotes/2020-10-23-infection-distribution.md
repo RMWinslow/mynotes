@@ -11,11 +11,12 @@ My goal tonight is to Figure out how distribution of secondary attack rate chang
 
 Outline:
 
-- [ ] Jot down some facts about negative binomial and gamma distributions based on [*that one paper*](../journal/superspreading-variation/)
+- [x] Jot down some facts about negative binomial and gamma distributions based on [*that one paper*](../journal/superspreading-variation/)
 - [ ] For each of the following social assumptions, compute what needs to be done to induce the desired distribution of contacts
   - [ ] higher social capital means connections more productive
   - [ ] paramerterized utility that trades off between social and nonsocial activities
   - [ ] everyone has access to continuum of connections and
+  - [ ] People seek out connections based on number of connections the other person has. A rich get richer type thing
 - [ ] For each of the above social setups and each of the below gov responses, calculate how distribution changes.
   - disease models
     - [ ] multiplying utility by a scaling factor dependent on how many connections you have. Eg penalty from disease is that you might die and stop expiriencing life. +
@@ -174,6 +175,10 @@ What is that probability over $x$, that we get our $r$th success on the $x+r$th 
 - variance $\sigma^2 = \frac{rq}{p^2} = \mu \frac{\mu+r}{r}$
 - skewness $\frac{2-p}{\sqrt{rq}}$
 - variance-to-mean ratio of $\frac{r}{\mu+r}$
+- PDF: $\binom{x+r-1}{r-1} p^r (1-p)^x$ <!--= (-1)^x \binom{-r}{k}-->
+- CDF: 
+ 
+$$\frac{\int}{}$$
 
 
 #### Putting these together
@@ -200,3 +205,54 @@ Based on various linked articles from [here](https://www.robertmwinslow.com/note
 - $R_0 =$ all over the place
 - $r=.53-.87$ but that's for one specific choir practice.
 - [This study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7185944/) found transmission rate (secondary attack rate) anywhere from 6-14%. See Table 3.
+
+---
+
+## Setup for endogenous connections
+
+
+
+
+### Changing the distribution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
