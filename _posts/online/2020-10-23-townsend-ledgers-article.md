@@ -1,5 +1,5 @@
 ---
-title: Beyond Bitcoin: Distributed Ledgers and Novel Payment Systems
+title: Beyond Bitcoin, Distributed Ledgers and Novel Payment Systems
 categories: online
 tags:
   - money
