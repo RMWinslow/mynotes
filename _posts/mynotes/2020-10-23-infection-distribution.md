@@ -210,6 +210,45 @@ Based on various linked articles from [here](https://www.robertmwinslow.com/note
 
 ## Setup for endogenous connections
 
+We need to figure out what underlying distribution of *something or other* results in a distribution of contacts with the desired properties.
+
+If we want social connections with gamma distribution $V$ distributed according to $F_V(n)$, and if social connections are a function $g_v(x)$ of some parameter $x$ from distribution $X$, then if $g$ is strictly increasing over the support of $X$:
+
+- $V = g_v(X)$
+- $X = g^{-1}_v(V)$
+- The distribution of X over its support is 
+
+$$F_X(x) = F_V(g_v(x))$$
+
+- pmf is likewise
+
+$$f_X(x) = f_v(g_v(x))\cdot \frac{\partial g_v(x)}{\partial x}$$
+
+It's that simple.
+
+### higher social capital means connections more productive, fixed cost of maintaining connection
+
+Each person $x\in(0,1)$ has some randomly determined exogenous level of social skill or social capital $\kappa_{x}$. 
+If the process for generating $\kappa$ has distribution function $F_{\kappa}$, 
+then without loss of generality, we can order the indices so that $F_{\kappa}(\kappa_{x})=Pr(\kappa\leq\kappa_{x})=x$
+
+If the maintenance of each social connection requires effort which incurs exogenous disutility $\varpi$,
+then person x's utility as a function of their choice of social connections is 
+ 
+$$U_{x}(n)=\frac{1}{1-\alpha}\kappa_{x}n^{1-\alpha}-\varpi n$$
+
+If $n(x)$ denotes person x's optimal number of social connections, then 
+
+$$n(x)=\left(\frac{\kappa_{x}}{\varpi}\right)^{1/\alpha}$$
+
+
+
+
+
+
+
+
+---
 
 
 
