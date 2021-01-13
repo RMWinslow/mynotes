@@ -1,0 +1,197 @@
+---
+title: "No, that really is a good argument against student loan forgiveness"
+excerpt_separator: "<!--more-->"
+categories:
+  - online
+tags:
+  - taxation
+  - redistribution
+  - debt
+  - college
+---
+
+
+Student debt forgiveness is a policy position that has got a lot of buzz recently. 
+Joe Biden [has promised to give up to $10,000 to anyone with student debt.](https://www.cnbc.com/2021/01/08/student-loan-forgiveness-could-be-more-likely-but-challenges-remain-.html)
+And other politicians have urged him to give as much as $50,000 per person.
+
+https://www.forbes.com/sites/wesleywhistle/2020/10/20/how-joe-biden-would-help-low-income-college-students/?sh=7648661c4f0b
+
+While browsing reddit's front page recently, I came across this tweet on the subreddit "r murderedbyAOC":
+
+> tweet goes heres
+
+The format of twitter forces people to condense complex arguments down into simplistic hot takes, so I don't want this to be read as a "dunking on" this particular politician.
+
+But what's a reddit post if the take isn't at least a little bit spicy? So instead of just arguing against student debt forgiveness in the abstract, 
+I'll try to frame this as an argument that "I got screwed and so should you" is a sensible argument when applied to the context of *student* debt.
+
+
+
+30k on average
+https://www.usatoday.com/story/news/education/2021/01/08/student-loan-forgiveness-biden-freeze-interest-payment/6602401002/
+
+
+## Why Student debt forgiveness is silly.
+
+
+
+https://www.marketwatch.com/story/john-oliver-says-jill-stein-doesnt-understand-her-own-student-debt-plan-2016-10-17
+
+
+
+
+
+
+
+
+### What is fairness?
+
+monkey paid grapes fairness
+https://www.youtube.com/watch?v=meiU6TxysCg
+
+instinct for progressive redistribution
+
+
+
+
+
+
+
+
+
+### The regressive structure of student loan forgiveness
+
+The notion that the policy is "*unfair*" is just the instinctual, layman version of a more sophisticated argument: 
+Student loan forgiveness is a regressive redistribution of wealth.
+It, at least in aggregate, gives to the *haves* instead of the *have nots*.
+
+Goofus and Gallant type thing
+
+And the data bears out this narrative.
+
+College grads earn on average about [80% more than non college grads](https://fredblog.stlouisfed.org/2018/07/is-college-still-worth-it/)
+
+https://www.bls.gov/emp/chart-unemployment-earnings-education.htm
+
+https://fivethirtyeight.com/wp-content/uploads/2016/03/casselman-college-1.png?w=575
+
+Private college debt higher
+https://www.forbes.com/sites/zackfriedman/2020/02/03/student-loan-debt-statistics/?sh=31849fc281fe
+
+
+https://www.federalreserve.gov/econres/scfindex.htm
+
+
+(If somebody has a cite for consumption and leisure data as a function of education level, I'd appreciate ya.)
+
+
+
+
+
+There are currently around [1.7 Trillion dollars of outstanding student loans.](https://fred.stlouisfed.org/series/SLOAS)
+
+
+
+### On the merits of the government giving Jeff Bezos, specifically, a wad of cash.
+
+
+
+
+### Moral Hazard
+
+
+
+And that's not even getting into worries about the implementation of such a policy nor the possible 
+distortionary effects it could have on students' decisions to take on debt in the future. 
+(ie If the gov pays off student debt once, will future students then take on more debt than they otherwise would, rationally anticipating it will be cancelled?)
+I just wanted to focus on how "fairness" really is a sensible argument here.
+
+
+It's not wicked to give people money. (The ol' welfare theorems say that markets *+ transfers* are the path to heaven). 
+But it is wicked to make that gift conditional on the recipient making bad decisions.
+
+
+
+
+
+
+
+
+
+## What about medical debt?
+
+Health economics isn't something I know much about, but on the surface, medical debt forgiveness seems a lot more sensible.
+It's still an expensive transfer, and I doubt it's anywhere close to the optimal policy, but:
+- Perverse incentives are lessened because while people may choose to smoke, they don't choose to get cancer, if you get what I mean.
+- The illnesses you get have less of a connection to your education than the career you get does.
+
+On the other hand, the argument about consumption and leisure still applies, so maybe it would be better yet to just give a lump sum transfer to everyone who has ever had cancer. 
+
+(Sidenote: Is there any country with a public health insurance program which just pays for all of a household's medical expenditure above X% of their annual income?
+Like some sort of 
+
+
+
+
+## Better policies to help allieviate the burden of student loans
+
+It is of course true that not all college graduates benefit from the college wage premium. (See the text of the FRED blogpost linked in section II).
+And that many people are burdened by debts for degrees which they never completed.
+It's important not just to consider the aggregate, but also the individual. All the interesting stuff happens on the margins, after all.
+
+So is there a way we can help those burdened by student debt without enacting a "Give Money to Bezos" style policy? Absolutely.
+
+
+
+### Bankruptcy Amendment.
+
+As it currently stands in the US, student loans are counted among the [exceptions to discharge under Chapter 7 bankrupcty](https://www.law.cornell.edu/uscode/text/11/523).
+This section prevents bankruptcy from cancelling out debt related to things like child support, fraud, or recent taxes.
+It also applies to student loan debt unless such debt imposes an "undue hardship":
+
+> A discharge under section 727... does not discharge an individual debtor from any debt — ... 
+unless excepting such debt from discharge under this paragraph would impose an undue hardship on the debtor and the debtor’s dependents, for —
+an educational benefit overpayment or loan made, insured, or guaranteed by a governmental unit, or made under any program funded in whole or in part by a governmental unit or nonprofit institution; or
+an obligation to repay funds received as an educational benefit, scholarship, or stipend; or
+any other educational loan that is a qualified education loan, as defined in section 221(d)(1) of the Internal Revenue Code of 1986, incurred by a debtor who is an individual;
+
+This "undue hardship" caveat may be reasonable in intention. 
+But in practice, it's loosely defined, and proving undue hardship is a legal barrier which [prevents most student loan debtors from even trying to discharge this debt.](https://www.npr.org/2020/01/22/797330613/myth-busted-turns-out-bankruptcy-can-wipe-out-student-loan-debt-after-all)
+The above article mentions that only [0.1 percent of student loan debtors who have filed for bankruptcy attempt to discharge their student loans](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1894445).
+
+<!--Recent court case argued exemption doesn't apply to certain private loans. https://www.forbes.com/sites/adamminsky/2020/09/02/court-allows-bankruptcy-discharge-of-200000-in-student-loans/?sh=657b0b234fd9-->
+
+One potential remedy is [H.R.2648, the Student Borrower Bankruptcy Relief Act](https://www.congress.gov/bill/116th-congress/house-bill/2648/text), 
+which simply gets rid of the above exception for student loans. 
+(There's something aesthetically pleasing about a bill whose title is almost as long as its actual content.)
+
+
+### Income-driven Repayment Programs
+https://www.brookings.edu/blog/up-front/2020/10/09/who-owes-the-most-in-student-loans-new-data-from-the-fed/
+
+
+### Lump Sum transfers
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## Unrelated Links
+
+[The least wealthy man in the world.](https://www.theatlantic.com/business/archive/2012/11/meet-the-most-indebted-man-in-the-world/264413/)
+
+(World Poverty and PPP](https://blogs.worldbank.org/developmenttalk/international-poverty-line-has-just-been-raised-190-day-global-poverty-basically-unchanged-how-even). PPP is periodically revised by [ICP](https://www.worldbank.org/en/programs/icp).
+
+
+
+
+
