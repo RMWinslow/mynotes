@@ -28,6 +28,10 @@ As of today, these are the two states with more than 3% of their population vacc
 
 ## KS, wat r u doing?!
 
+Edit A while later: the Gov wasn't BSing. KS rocketed up in terms of vaccines, just like the visit with Rob suggested. It's solidly middle of the pack, despite lower vaccine allocations. It has above average percent of population vaccinated.
+
+---
+
 KS, sadly enough, has the lowest portion of its population vaccinated, according to WSJ.
 And looking at the CDC map, it's not just a matter of not getting the vaccines. A low portion of doses distributed have been administered.
 
