@@ -103,3 +103,11 @@ Put option is the mirror image of call option.
 The upfront payment is set in equilibrium so that doing both loses you money in expectation.
 
 Options create stange nonlinearities in payoff structure.
+
+---
+
+HP filter can distort underlying data. Can induce random walk in data that has no random walk.
+Simple version of detrending to look at growth rates?
+
+Sometimes people will come into the neighborhood of a magnificent finding, but they won't spend enough time there being angry and poking and tinkering.
+
