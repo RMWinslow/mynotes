@@ -105,7 +105,7 @@ By **decomposition property** of Poisson games (TODO), number of votes for and a
 
 The probability of a particular set of votes ($n_+$ votes for $z_i$ and $n_-$ against) being cast is 
 
-$$\psi (n_+,n_-) = \frac{{(nv_+)}^{n_+} e^{-nv_+}}{n_+!} \cdot \frac{{(nv_-)}^{n_-} e^{-nv_-}}{n_-!} = \frac{{n}^{n_-+n_+} e^{-n(v_-+v_+)}}{n_-!n_+!} v_+^{n_+} v_-^{n_-}$$
+$$\psi (n_+,n_-) = \frac{ {(nv_+)}^{n_+} e^{-nv_+}}{n_+!} \cdot \frac{{(nv_-)}^{n_-} e^{-nv_-}}{n_-!} = \frac{ {n}^{n_-+n_+} e^{-n(v_-+v_+)}}{n_-!n_+!} v_+^{n_+} v_-^{n_-}$$
 
 Because a poisson pmf is $\frac{\lambda^k e^{-\lambda}}{k!}$ 
 
