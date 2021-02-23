@@ -169,3 +169,8 @@ Propostition 1
 
 $\tau(q)$ above maps pivot probabilities to new pivot probabilites. And a fixed point exists by Brouwer's theorem.
 
+
+Note that if $\rho=0$, (private values) $\phi=1-\phi$, so expected votes same for both policies. Then Our special $\tau$ is positive as long as $q_i>0$ because $P_+ = P_-$.
+
+But with $\rho>0$, we expect that our policy will be correlated with others' and so $P_+ < P_-$. So 
+
