@@ -13,6 +13,57 @@ Original prompt from Peter Pusztai
 
 ---
 
+## Population Uncertainty and Poisson Games
+
+Roger B. Myerson, International Journal of Game Theory
+
+In a game with a specific number of players, we are implicitly saying that it is common knowledge that each player knows the identity of every other.
+We are saying that it is common knowledge that the distribution of population is a point prob.
+Sometimes easier to assume it's a Poisson Probability.
+
+
+### Setup
+
+- $T$ is set of possible types of players
+- Q represnets poulation uncertainty.
+- C is set of actions a player can choose.
+- $U(x,b,t)$ is utility of player of type $t$ who chooses action $b$ when there are $x(c)$ players who choose each action $c$
+- strategy $\sigma(c|t)$ representing the prob that a player of type $t$ chooses action $c$
+  
+
+### Poisson games specifically
+
+Player Types are IID
+
+Number of players  is Poisson RV with mean $n$
+which means chance of exactly $k$ players is 
+
+$$p(k|n) = \frac{e^{-n}n^k}{k!}$$
+
+#### Useful Pro\sumperty of Poisson!
+
+Aggregation Property
+: Any sum of independent Poisson RV is itself a Poisson RV.
+
+If $X_i \sim Pois(\lambda_i)$, and the $X_i$s are iid. then
+
+$$\sum_i X_i \sim Pois\left(\sum_i \lambda_i\right)$$
+
+$$\frac{e^{-\lambda+v}(\lambda+v)^k}{k!} = \sum_{j=0}^k \frac{}{j!} \frac{}{(k-j)!}$$
+
+Decomposition Property
+: If the sum of two independent RV is Poisson, then so too are each of those two variables
+
+Furthermore, if we independently assign each individual some characteristc from set $S$, and then the RV representing the number of each type
+is itself Poisson, mutually independent of all the other ones.
+
+
+the implication of all this is that if we randomly assign types, then for each type, the distribution of number of that type is poisson
+
+
+---
+
+
 
 ## The paradox of information and voter turnout
 
@@ -172,5 +223,16 @@ $\tau(q)$ above maps pivot probabilities to new pivot probabilites. And a fixed 
 
 Note that if $\rho=0$, (private values) $\phi=1-\phi$, so expected votes same for both policies. Then Our special $\tau$ is positive as long as $q_i>0$ because $P_+ = P_-$.
 
-But with $\rho>0$, we expect that our policy will be correlated with others' and so $P_+ < P_-$. So 
+But with $\rho>0$, we expect that our policy will be correlated with others' and so $P_+ < P_-$. So $\tau(q)<0$ for low enough $q$.
+
+### Large elections
+
+What is behavior as $n\to\infty$? 
+
+$\tau^*_n$ converges uniformlu to zero as $n\to\infty$
+
+
+
+
+---
 
