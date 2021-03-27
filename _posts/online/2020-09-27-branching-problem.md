@@ -58,6 +58,105 @@ Apply population wide control and
 $$g_{pop}(s) = \left(1 + (1-c)\frac{R_0}{k}(1-s)\right)^{-k} $$
 
 
+---
+
+## Factorial Moment generating function:
+
+Pgf is special case of [Factorial moment generating function](https://en.wikipedia.org/wiki/Factorial_moment_generating_function) when $X$ is discrete rv with only the counting numbers as support.
+
+More general form is that if $X$ is a real-valued random variable, then 
+
+$$M_X(\maltese) = E[\maltese^X] = \int \maltese^x f(x) \ dx$$
+
+Domain is all $\maltese\in\Complex$ where this exists.
+
+I want to check if this has the same convinient properties as the PGF:
+
+### Moment properties
+
+$$M_X(1) = E[1^X] = \int 1^x f(x) \ dx = \int f(x) \ dx = 1$$
+
+$$M_X^\prime (\maltese) = \int x \maltese^{x-1} f(x) \ dx$$
+
+$$M_X^\prime (1) = \int x f(x) \ dx = E[X]$$
+
+### Multiplying by constant
+
+
+$$M_X(\maltese^a) = E[({\maltese^a})^X] = E[\maltese^{aX}]$$
+
+And if $S\equiv aX$, then 
+
+$$M_S(\maltese) = E[\maltese^S] = E[\maltese^aX]$$
+
+So $M_{aX}(\maltese) = M_X(\maltese^a)$
+
+### Adding independent RVs
+
+Let $X,Y$ be independent real-valued random variables.
+$M_X$ is the FMGF for $X$, 
+and $M_Y$ is the FMGF for $Y$.
+
+And $S$ is the some of the two. $S\equiv a X+ bY$.
+Then the FMGF for $S$ is 
+
+$$M_S(\maltese)=E[\maltese^{a X+ bY}] 
+= \int \maltese^s f_S(s) \ ds
+= \int\int \maltese^x f(x) \ dx\ dy
+$$
+
+
+$$M_S(\maltese)
+=E[\maltese^{S}]
+=E[\maltese^{a X+ bY}]
+=E[\maltese^{aX} \maltese^{bY}] 
+$$
+
+$$M_S(\maltese) = \int \int \maltese^{ax} \maltese^{by} f_X(x) f_Y(y)\ dx\ dy$$
+
+
+$$M_S(\maltese) = 
+\int \maltese^{ax}  f_X(x) \ dx \int \maltese^{by}  f_Y(y) \ dy$$
+
+$$M_{aX+bY}(\maltese) = M_S(\maltese) = M_X(\maltese^a)M_Y(\maltese^b)$$
+
+In particular, if $Y$ and $X$ are iid, then
+
+$$M_{X+Y}= M_X(\maltese)M_Y(\maltese) = M_X(\maltese)M_X(\maltese) = M_X^2(\maltese)$$
+
+And the sum of $N$ iid draws from $X$ has pgf $M_X^N(\maltese)$
+
+### Random number of IID Random Variables
+
+$N$ is an independent real-valued random variable
+with FMGF $M_N$
+
+$$X_1,X_2,X_3,...X_N$$
+are iid.
+Each has the same FMGF $M_X$.
+
+$$S\equiv \sum_{i=1}^N X_i$$
+has FMGF $M_S$
+
+Then 
+
+$$M_S(\maltese) = E[\maltese^S] = E[\maltese^{\sum_{i=1}^N X_i}]$$
+
+$$M_S(\maltese) = E\left[ E[\maltese^{\sum_{i=1}^N}]\ |\  N \right]
+= E\left[ (M_X (\maltese))^N \right]
+= M_N(M_X (\maltese))$$
+
+
+
+
+So all the same old properties apply.
+
+
+
+
+
+
+
 
 
 

@@ -148,7 +148,7 @@ Whitaker Rentin[12]: A theoretical model of interpreting the recenetly reported 
 
 Kremer [11]: AIDS and Imperfect Signals of Risk
 
-Jacquez Simon Koopman Sattenshpiel Perry[13]: modelling analysing HIV transmission: the effect of contact patterns.
+Jacquez Simon Koopman Sattenspiel  Perry[13]: modelling analysing HIV transmission: the effect of contact patterns.
 
 
 [1]: can't find
