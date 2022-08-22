@@ -66,24 +66,28 @@ J Theor Biol. 2005 Jan 7
 
 Then the paper does some simulations and compares them to the theory.
 
-all three networks have the same $R_0$, but have different vulnerabilities to epidemics.
+all three networks have the same $R_0$, and same critical threshold, but have different vulnerabilities to epidemics.
 
 - Poisson network
     - implicit basis of standard SIR model
     - clasically predicts epidemic happens with chance $1-1/R_0$
     - homogenous vertices, so any two outbreaks are essentially the same
     - small outbreaks include a moderate number of individuals
+    - distribution $$p_k = (\mu^k / k!) e^{-\mu}$$ with $\mu=19.6$
 - Power law network
     - mostly low-contact individuals
     - a few superspreaders
     - epidemic happens when there is a large chance that the disease reaches a superspreader.
     - many outbreaks fail to do so.
     - small outbreaks usually die out after 1 or 2 cases
+    - distribution where for $k > 0$, $$p_k = Ck^{-\alpha}e^{-k/\kappa}$$ with $\kappa=94.2$ and $\alpha=2$
 - urban network
     - based on Vancouver households
     - assigns people to households, classrooms, hosptal wards
     - connections are formed in each place
     - nearly exponential tail for degree distribution for degrees greater than 10
+
+$T=0.155$ matches up with $R_0=2.7$, good fit for pre-intervention SARS
 
 Simulated SIR results match up very well with timeless analytical predictions, even for complicated urban network
 

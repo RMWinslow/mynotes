@@ -58,6 +58,16 @@ Apply population wide control and
 $$g_{pop}(s) = \left(1 + (1-c)\frac{R_0}{k}(1-s)\right)^{-k} $$
 
 
+
+
+Alternatively, if offspring generating function is binomial $Z\sim Binom(n,p)$:
+
+$$\Pr(B(n,p)=k) = \binom{n}{k} p^k (1-p)^{n-k}$$
+
+$$g(s) = \sum_{k=0}^n \binom{n}{k} x^k p^k (1-p)^{n-k} = (1-p+xp)^n = (1-(1-x)p)^n$$
+
+
+
 ---
 
 ## Factorial Moment generating function:
@@ -87,9 +97,9 @@ $$M_X(\maltese^a) = E[({\maltese^a})^X] = E[\maltese^{aX}]$$
 
 And if $S\equiv aX$, then 
 
-$$M_S(\maltese) = E[\maltese^S] = E[\maltese^aX]$$
+$$M_S(\maltese) = E[\maltese^S] = E[\maltese^{aX}]$$
 
-So $M_{aX}(\maltese) = M_X(\maltese^a)$
+So $$M_{aX}(\maltese) = M_X(\maltese^a)$$
 
 ### Adding independent RVs
 
@@ -146,19 +156,89 @@ $$M_S(\maltese) = E\left[ E[\maltese^{\sum_{i=1}^N}]\ |\  N \right]
 = E\left[ (M_X (\maltese))^N \right]
 = M_N(M_X (\maltese))$$
 
+#### But here N is discrete. What is the analogue for continuous N?
+
+Discrete: generate N offspring, who spawn identical processes to you.
+
+Continuous?: Generate N units of offspring mass, and each point in the offspring mass spawns a process equivalent to you???
+
+Same mean offspring mass, but make each offspring unit smaller. Split mass up into 1/delta pieces?
+
+$$S\equiv \sum_{i=1}^{N/\delta} \delta X_i$$
+
+Limit as pieces goes to infty and delta to 0. Define M to be number of pieces.
+
+$$\lim_{\delta\to 0}\sum_{i=1}^{N/\delta} \delta X_i = \lim_{M\to\infty}N\frac{1}{M} \sum_i^M X_i$$
+
+Law of large numbers says that if mean of X $E[X]0$ exists, then this converges to $N \cdot E[X]$ as M goes to infty.  
+
+So the continuous version would just be $S\equiv \mu_X N$?
+
+So $$M_S = M_{\mu_X N}(\maltese) = M_N(\maltese^{\mu_X})$$
+
+In particular, if each X is iid to N with mean $\mu$:
+
+$$M_0(\maltese) = M_N(\maltese)$$
+
+$$M_1(\maltese) = M_N(\maltese^\mu)$$
+
+$$M_2(\maltese) = M_N(\maltese^{\mu\mu})$$
+
+$$M_g(\maltese) = M_N(\maltese^{\mu^g}) = E[\maltese^{\mu^g X}]$$
 
 
-
-So all the same old properties apply.
-
-
+No I don't think this is the correct approach.
+<!--So all the same old properties apply.-->
 
 
+### Ultimate Extinction likelihood
+
+In discrete version, unique solution $q\in(0,1)$ to $q=G(q)$.
+
+Unless there is a chunk of probability mass sitting on 0, chance of exactly 0 offspring is 0, so extinction chance is zero?
+
+If N has support $\R^+$
+Probability immediate extinction is $\Pr(N=0) = M_N(0)$.
+Prob extinct by generation $g$ is 
+$$M_g(0) = M_N(0^{\mu^g}) = M_N(0) = \Pr(N=0)$$
+
+This is definitely not correct. I'm probably too tired right now.
 
 
+### Getting probabilities back out.
+
+In discrete case, take $k$th derivative, evaluate at 0, divide by $k!$ to get $p_k$.
+
+Can't do that generically for real-valued, I guess.
 
 
+### Examples to try to make things stick in my head
 
+Consider $X$ being the uniform distribution on $[0,A]$.
+
+$$M_X(\maltese) = E[\maltese^X] = \int_0^A \maltese^x \frac{1}{A} \ dx$$
+
+$$M_X(\maltese) = \frac{1}{A} \frac{\maltese^A - 1}{\ln \maltese}$$
+
+This form  undefined but approaches 1 as $\maltese\to 1$, which is the correct value.
+
+$$M_X(M_X(\maltese)) = E[(E[\maltese^X])^X] \\
+= \int_0^A (\int_0^A \maltese^x \frac{1}{A} \ dx)^x \frac{1}{A} \ dx \\
+= \frac{1}{A^2} \int_0^A (\frac{\maltese^A - 1}{\ln \maltese})^x  \ dx \\
+= \frac{1}{A^2} \frac{(\frac{\maltese^A - 1}{\ln \maltese})^A-1}{\ln \frac{\maltese^A - 1}{\ln \maltese}} 
+$$
+
+For $A=1$
+
+$$M_X(M_X(\maltese)) 
+= \frac{(\frac{\maltese - 1}{\ln \maltese})-1}{\ln \frac{\maltese - 1}{\ln \maltese}}  $$
+
+$$ \frac{d}{d\maltese} M_X(M_X(\maltese))
+ = \int x f(x) \ dx = E[X]$$
+
+Now let 
+
+eh. forget about it.
 
 
 

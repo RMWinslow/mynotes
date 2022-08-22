@@ -40,7 +40,7 @@ But authors say result isn't robust, so don't try applying this to actual policy
 
 Rentin[12]: two group example with random mixing, increase by low-activity group reduces steady state prevalence.
 
-Kremer [11] analyzes externalieits using asymettric information.
+Kremer [11] analyzes externalieits using asymettric information. :( Unpublished notes.
 
 ---
 
@@ -145,8 +145,8 @@ Further reading
 Kremer [2]: Integrating behavioral choice into epidemiological models of AIDS
 
 Whitaker Rentin[12]: A theoretical model of interpreting the recenetly reported increas in homosexual gonorrhea
-
-Kremer [11]: AIDS and Imperfect Signals of Risk
+ 
+Kremer [11]: AIDS and Imperfect Signals of Risk :( Unpublished notes.
 
 Jacquez Simon Koopman Sattenspiel  Perry[13]: modelling analysing HIV transmission: the effect of contact patterns.
 
